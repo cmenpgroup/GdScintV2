@@ -1,0 +1,10 @@
+# Macro file for Gd Neutron Scintillator
+
+/run/initialize
+
+# neutron 10 MeV 
+/gun/particle neutron
+/gun/energy 10 MeV
+#
+/run/printProgress 100
+/run/beamOn 1000
